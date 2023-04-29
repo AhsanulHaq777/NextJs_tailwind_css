@@ -6,8 +6,8 @@ export default function Footer() {
     <>
       <div className=' md:flex align-middle gap-[30px] p-[60px] bg-gray-100 text-black'>
       <div className=' md:w-1/4 mb-[20px] md:mb-[0px]'>
-      <Image alt="panaverse" width="120" height="120" src="/Logo.webp"/>
-      <p className=' pr-[40px] pt-6 text-gray-600'>The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse DAO is a movement to spread.</p>
+        <Image alt="panaverse" width="120" height="120" src="/Logo.webp"/>
+        <p className=' pr-[40px] pt-6 text-gray-600'>The Future of the Web is Web 3.0, Metaverse, and Edge Computing. Panaverse DAO is a movement to spread.</p>
       </div>
       <div className=' md:w-1/4 mb-[20px] md:mb-[0px]'>
         <h1 className=' font-semibold text-2xl'>Useful Links</h1>
@@ -45,7 +45,5 @@ export default function Footer() {
       </div>
     </div>
     </>
-    
-
   )
 }
